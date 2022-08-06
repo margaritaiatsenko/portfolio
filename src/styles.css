@@ -102,3 +102,13 @@ p {
 .navbar-brand {
   padding-left: 40px;
 }
+@media (max-width: 576px) {
+  img {
+    display: none;
+  }
+  .primary-link {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
+  }
+}
